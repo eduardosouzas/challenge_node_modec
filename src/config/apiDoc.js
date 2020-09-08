@@ -140,7 +140,7 @@ const openApi = {
         content: {
           'application/json': {
             schema: {
-              $ref: '#/components/schemas/equipment'
+              $ref: '#/components/schemas/equipment',
             }
           }
         },
@@ -166,6 +166,11 @@ const openApi = {
   },
   components: {
     schemas: {
+      vessel_id: {
+        type: 'string',
+        description: 'Code reference for vessel',
+        example: 'MV102'
+      },
       equipment_codes: {
         type: 'object',
         description: 'Object for update status equipment',
@@ -200,8 +205,8 @@ const openApi = {
             description: 'equipment location',
             example: 'Brazil',
           },
-          vessel: {
-            $ref: '#/components/schemas/vessel',
+          vessel_id: {
+            $ref: '#/components/schemas/vessel_id',
           }
         }
       },
