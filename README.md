@@ -10,7 +10,10 @@
 
 ## Run
 
-1. Start Server
+1. Start test
+> npm test
+
+3. Start Server
 > npm start
 
 2. Open in url or using an Endpoint tester (postman)
