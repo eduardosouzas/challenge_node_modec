@@ -3,17 +3,14 @@
 ## Setup
 
 1. Go to project folder
-
 > cd challenge
 
 2. Install Dependencies
-
+> npm install
 
 ## Run
 
 1. Start Server
-> npm install
-
 > npm start
 
 2. Open in url or using an Endpoint tester (postman)
